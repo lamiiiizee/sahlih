@@ -14,6 +14,9 @@
         content="Hub is a HTML template with high performance, and award-winning design collection.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/images/common/og-image.jpg">
+    <!-- boostarp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="assets/vendors/liquid-icon/lqd-essentials/lqd-essentials.min.css">
     <link rel="stylesheet" href="assets/css/theme.min.css">
     <link rel="stylesheet" href="assets/css/utility.min.css">
@@ -23,6 +26,9 @@
     <link rel="preconnect" href="../fonts.gstatic.com/index.html" crossorigin>
     <link href="../fonts.googleapis.com/css2e9d0.css?family=Montserrat:wght@400;500;700&amp;display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
     <title>Leemo Global</title>
 </head>
 
@@ -143,11 +149,6 @@
                                             class="link-sup">03</sup>
                                     </a>
                                 </li>
-                                <li class="inline-flex flex-col relative w-auto">
-                                    <a class="text-white hover:text-primary" href="visa-service.html">Visa Services<sup
-                                            class="link-sup">04</sup>
-                                    </a>
-                                </li>
 
                                 <!-- <li class="inline-flex flex-col relative w-auto">
                                     <a class="text-white hover:text-primary" href="#news">News<sup
@@ -191,10 +192,7 @@
                             data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true}">
                             <li class="is-active"><a href="banner.html">Home <sup class="link-sup">01</sup></a></li>
                             <li><a href="page-company-about.html">About Us <sup class="link-sup">02</sup></a></li>
-                            <li><a href="page-company-services.html">Services <sup class="link-sup">03</sup></a></li>
-                            <li><a href="page-company-services.html">Visa Services <sup class="link-sup">04</sup></a>
-                            </li>
-
+                            <li><a href="services.html">Services <sup class="link-sup">03</sup></a></li>
                             <li><a href="#news">News <sup class="link-sup">05</sup></a></li>
                             <li><a href="page-company-contact.html">Contact <sup class="link-sup">06</sup></a></li>
                         </ul>
@@ -401,8 +399,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Studyabroad </h3><a href="page-company-services.html" target="_blank"
-                                                rel="nofollow"
+                                                Studyabroad </h3><a href="#study" data-lity="#study"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -426,8 +423,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Mbbs abroad</h3><a href="page-company-services.html" target="_blank"
-                                                rel="nofollow"
+                                                Mbbs abroad</h3><a href="#mbbs" data-lity="#mbbs"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -451,8 +447,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Work oversease</h3><a href="page-company-services.html" target="_blank"
-                                                rel="nofollow"
+                                                Work oversease</h3><a href="#work-over" data-lity="#work-over"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -477,8 +472,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Nursing recruitment </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Nursing recruitment </h3><a href="#nursing" data-lity="#nursing"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -500,8 +494,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                International travel & tourism </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                International travel & tourism </h3><a href="#international" data-lity="#international"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -521,8 +514,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Schengen visa </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Schengen visa </h3><a href="#schengen" data-lity="#schengen"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -542,8 +534,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                visas services  </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                visas services  </h3><a href="#visa" data-lity="#visa"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -563,8 +554,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Ticketing </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Ticketing </h3><a href="#ticketing" data-lity="#ticketing"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -583,8 +573,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Travel insurance </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Travel insurance </h3><a href="#insurance" data-lity="#insurance"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -609,8 +598,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                vfs appointment </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                vfs appointment </h3><a href="#vfx" data-lity="#vfx"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -635,8 +623,8 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Attestaion </h3><a href="#study" data-lity="#study"
-                                                target="_blank" rel="nofollow"
+                                                Attestaion </h3><a href="#Attestaion" data-lity="#Attestaion"
+                                                
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -655,8 +643,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Forex </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Forex </h3><a href="#forex" data-lity="#forex"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -675,8 +662,7 @@
                                             </div>
                                             <h3
                                                 class="lqd-iconbox-heading text-center text-16 leading-1em mb-0 inner-text-white">
-                                                Travel card </h3><a href="page-company-services.html"
-                                                target="_blank" rel="nofollow"
+                                                Travel card </h3><a href="#travel-card" data-lity="#travel-card"
                                                 class="btn btn-naked btn-icon-right btn-hover-swp mt-em mb-0 items-center text-15 font-bold text-white hover:text-primary"><span
                                                     class="btn-txt" data-text="Learn more">Learn more</span> <span
                                                     class="btn-icon text-16 tracking-0"><i
@@ -1642,7 +1628,7 @@
 
 
 
-    <!-- modal -->
+<!-- modal -->
 <div class="all-modals">
 
     <div id="contact-modal" class="lqd-modal lity-hide" data-modal-type="fullscreen">
@@ -2582,6 +2568,239 @@
     </div>
 
 
+    <!-- visa service -->
+    <div id="visa" class="lqd-modal lity-hide" data-modal-type="fullscreen">
+        <div class="lqd-modal-inner py-25 px-2em">
+            <div class="lqd-modal-head">
+                <h2>Service Details</h2>
+            </div>
+
+            <ul class="nav nav-tabs d-web">
+                <li class="active"><a data-toggle="tab" href="#tourist">Tourist visa</a></li>
+                <li><a data-toggle="tab" href="#dependent">Dependent visa</a></li>
+                <li><a data-toggle="tab" href="#child">Child visa</a></li>
+                <li><a data-toggle="tab" href="#Job-seeker">Job seeker visa</a></li>
+                <li><a data-toggle="tab" href="#global">Global visa</a></li>
+                <li><a data-toggle="tab" href="#family">Family visa</a></li>
+                <li><a data-toggle="tab" href="#employment">Employment visa</a></li>
+
+            </ul>
+
+            <div class="dropdown d-mob">
+                <button class="btn btn-primary dropdown-toggle drop-custom" type="button" id="visaDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Visa
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="visaDropdown">
+                    <li><a data-toggle="tab" href="#tourist" onclick="selectVisa('Tourist visa')">Tourist visa</a></li>
+                    <li><a data-toggle="tab" href="#dependent" onclick="selectVisa('Dependent visa')">Dependent visa</a></li>
+                    <li><a data-toggle="tab" href="#child" onclick="selectVisa('Child visa')">Child visa</a></li>
+                    <li><a data-toggle="tab" href="#Job-seeker" onclick="selectVisa('Job seeker visa')">Job seeker visa</a></li>
+                    <li><a data-toggle="tab" href="#global" onclick="selectVisa('Global visa')">Global visa</a></li>
+                    <li><a data-toggle="tab" href="#family" onclick="selectVisa('family visa')">Family visa</a></li>
+                    <li><a data-toggle="tab" href="#employment" onclick="selectVisa('Employment visa')">Employment visa</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+
+                <!-- tourist -->
+
+                <div id="tourist" class="lqd-modal-content tab-pane fade in active">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/tourist.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Tourist visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- dependent -->
+                <div id="dependent" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/depented.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Dependent visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- child -->
+                <div id="child" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/child.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Child visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Job-seeker -->
+                <div id="Job-seeker" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/jobseeker.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Job seeker visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- global -->
+                <div id="global" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/global.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Global visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- family -->
+                <div id="family" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/Family-visas.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Family visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- employment -->
+                <div id="employment" class="lqd-modal-content tab-pane fade in ">
+                    <div class="relative flex flex-wrap py-80 -mr-15 -ml-15 module-bottom">
+                        <div class="container-fluid">
+                            <div class="row items-center">
+                                <div class="col col-12 col-md-6">
+                                    <img src="img/visa/employment.png" alt="">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <div
+                                        class="relative flex flex-col justify-content transition-all border-1 border-black-10 rounded-4 pt-55 pb-35 px-60 module-inner">
+                                        <div class="ld-fancy-heading">
+                                            <h2 class="ld-fh-element mb-0/5em text-34 font-semibold">Employment visa
+                                            </h2>
+                                        </div>
+                                        <p>With its diverse and inclusive society, Canada provides an enriching cultural
+                                            experience for international students. The country's commitment to research
+                                            and innovation further enhances the appeal of pursuing higher education
+                                            there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="lqd-modal-foot"></div>
+        </div>
+    </div>
+
+
     <!-- ticketing service -->
     <div id="ticketing" class="lqd-modal lity-hide" data-modal-type="fullscreen">
         <div class="lqd-modal-inner py-25 px-2em">
@@ -2845,7 +3064,6 @@
 
 
 
-
     <!--     
     <a class="fixed z-100"
         href="https://themeforest.net/item/hub-responsive-multipurpose-wordpress-theme/31569152"
@@ -2870,6 +3088,10 @@
 
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDRSq7_32muzQ4-hcsJwws4ZrtfqaFcsZg"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendors/gsap/minified/gsap.min.js"></script>
@@ -2950,6 +3172,22 @@
                 data-lity-close>&times;</button>
         </div>
     </div>
+
+    <script>
+        function selectCountry(country) {
+            $('#countryDropdown').html(country + ' <span class="caret"></span>');
+
+        }
+        function selectCountry1(country) {
+            $('#countryDropdown1').html(country + ' <span class="caret"></span>');
+
+        }
+        function selectVisa(visa) {
+            $('#visaDropdown').html(visa + ' <span class="caret"></span>');
+
+        }
+    </script>
+
 </body>
 
 </html>
