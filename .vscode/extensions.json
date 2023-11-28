@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"formulahendry.auto-complete-tag",
+		"streetsidesoftware.code-spell-checker",
+		"igorsbitnev.error-gutters",
+		"wayou.vscode-todo-highlight"
+	],
+	"unwantedRecommendations": []
+}
