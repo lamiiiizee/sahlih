@@ -11,6 +11,13 @@
 .d-mob{
     display: block;
 }
+.module-inner{
+    padding: 15px !important;
+}
+.ld-fancy-heading h2{
+    font-size: 28px;
+
+}
  }
 
  @media (min-width: 770px) { 
@@ -19,3 +26,4 @@
         display: none;
     }
 }
+
