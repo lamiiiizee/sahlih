@@ -4,6 +4,7 @@
         "streetsidesoftware.code-spell-checker",
         "igorsbitnev.error-gutters",
         "eamodio.gitlens",
-        "wayou.vscode-todo-highlight"
+        "wayou.vscode-todo-highlight",
+        "hossaini.bootstrap-intellisense"
     ]
 }
