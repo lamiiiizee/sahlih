@@ -81,3 +81,39 @@
     color: black;
 }
 
+.carousel-control.right,.carousel-control.left{
+    background: none;
+}
+
+.custom-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+textarea.custom-input{
+    resize: vertical;
+}
+
+.file-input {
+    width: auto;
+}
+
+.career-aboard .btn-submit {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.career-aboard .btn-submit:hover {
+    background-color: #23272b;
+}
+
+
