@@ -68,13 +68,13 @@
             <div class="titlebar-overlay lqd-overlay bg-blue-600"></div>
             <div class="lqd-sticky-placeholder hidden"></div>
             <header id="site-header" class="main-header main-header-overlay" data-sticky-header="true">
+               
                 <section
                     class="lqd-section w-full flex flex-wrap items-center justify-between px-2percent module-header md:hidden">
                     <div class="w-15percent flex items-center justify-start"><a class="navbar-brand flex relative py-15"
-                            href="index.html" rel="home"><span class="navbar-brand-inner post-rel"><img
-                                    class="logo-sticky" width="140" height="40"
-                                    src="assets/images/demo/company/leemoglobal.png" alt="Hub Theme"> <img
-                                    class="logo-default" width="220" height="40"
+                            href="index.html" rel="home"><span class="navbar-brand-inner post-rel"><img class="logo-sticky"
+                                    width="140" height="40" src="assets/images/demo/company/leemoglobal.png"
+                                    alt="Hub Theme"> <img class="logo-default" width="220" height="40"
                                     src="assets/images/demo/company/leemoglobal.png" alt="Hub Theme"></span></a></div>
                     <div class="w-85percent flex items-stretch justify-end">
                         <div class="module-primary-nav flex">
@@ -93,29 +93,50 @@
                                             Us
                                         </a>
                                     </li>
-                                    <li class="inline-flex flex-col relative w-auto">
+                                    <!-- <li class="inline-flex flex-col relative w-auto">
                                         <a class="text-white hover:text-primary" href="services.html">Services
                                         </a>
+                                    </li> -->
+    
+                                    <li class="menu-item-has-children inline-flex flex-col relative w-auto">
+                                        <a class="text-white hover:text-primary" href="services.html">Services
+                                        </a>
+                                        <ul class="nav-item-children">
+                                            <li><a href="pages/studyabroad.html">Studyabroad</a></li>
+                                            <li><a href="pages/mbbs.html">Mbbs abroad</a></li>
+                                            <li><a href="pages/career-abroad.html">Career Abroad</a></li>
+                                            <li><a href="pages/nursing.html">Nursing recruitment</a></li>
+                                            <li><a href="pages/international.html">International travel & tourism</a></li>
+                                            <li><a href="pages/schengen.html">Schengen visa</a></li>
+                                            <li><a href="pages/visa-service.html">visas services</a></li>
+                                            <li><a href="pages/ticketing.html">Ticketing</a></li>
+                                            <li><a href="pages/travel-card.html">Travel insurance</a></li>
+                                            <li><a href="pages/vfs-appoinment.html">vfs appointment</a></li>
+                                            <li><a href="pages/attestation.html">Attestation</a></li>
+                                            <li><a href="pages/forex.html">Forex</a></li>
+                                            <li><a href="pages/travel-card.html">Travel card</a></li>
+                                        </ul>
                                     </li>
-
+    
                                     <!-- <li class="inline-flex flex-col relative w-auto">
                                         <a class="text-white hover:text-primary" href="#news">News<sup
                                                 class="link-sup">05</sup>
                                         </a>
                                     </li> -->
                                     <li class="inline-flex flex-col relative w-auto"><a
-                                            class="text-white hover:text-primary"
-                                            href="page-company-contact.html">Contact
+                                            class="text-white hover:text-primary" href="page-company-contact.html">Contact
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="ml-20 text-end">
+    
                             <a href="tel:+917025884422">
-                                <h6 class="mt-1em text-white"><span class="text-13 text-inherit">call us
-                                        now</span><br><span class="text-primary text-16">+91 7025 884 422</span></h6>
+                                <h6 class="mt-1em text-white"><span class="text-13 text-inherit">call us now</span><br><span
+                                        class="text-primary text-16">+91 7025 884 422</span></h6>
                             </a>
+    
                         </div>
                     </div>
                 </section>
@@ -127,14 +148,12 @@
                             aria-expanded="false"
                             data-bs-toggle-options="{ &quot;changeClassnames&quot;:  {&quot;html&quot;:  &quot;mobile-nav-activated&quot;} }"><span
                                 class="sr-only">Menu</span> <span class="bars inline-block relative z-1"><span
-                                    class="bars-inner flex flex-col w-full h-full"><span
-                                        class="bar inline-block"></span>
+                                    class="bars-inner flex flex-col w-full h-full"><span class="bar inline-block"></span>
                                     <span class="bar inline-block"></span> <span
                                         class="bar inline-block"></span></span></span></button> <a
                             class="navbar-brand flex relative" href="index.html"><span class="navbar-brand-inner"><img
                                     class="logo-default" width="140" height="40"
-                                    src="assets/images/demo/company/leemoglobal.png"
-                                    alt="Hub WordPress Theme"></span></a>
+                                    src="assets/images/demo/company/leemoglobal.png" alt="Hub WordPress Theme"></span></a>
                     </div>
                     <div class="lqd-mobile-sec-nav w-full absolute z-10 bg-white text-black">
                         <div class="mobile-navbar-collapse navbar-collapse collapse w-full" id="lqd-mobile-sec-nav"
@@ -144,8 +163,26 @@
                                 data-localscroll-options="{&quot;itemsSelector&quot;:&quot;> li > a&quot;, &quot;trackWindowScroll&quot;: true}">
                                 <li class="is-active"><a href="index.html">Home </a></li>
                                 <li><a href="page-company-about.html">About Us </a></li>
-                                <li><a href="services.html">Services </a></li>
-
+                                <!-- <li><a href="services.html">Services </a></li> -->
+                                <li class="menu-item-has-children"><a href="services.html">Services <span
+                                    class="submenu-expander absolute"></span> </a>
+                                    <ul class="nav-item-children">
+                                        <li><a href="pages/studyabroad.html">Studyabroad</a></li>
+                                        <li><a href="pages/mbbs.html">Mbbs abroad</a></li>
+                                        <li><a href="pages/career-abroad.html">Career Abroad</a></li>
+                                        <li><a href="pages/nursing.html">Nursing recruitment</a></li>
+                                        <li><a href="pages/international.html">International travel & tourism</a></li>
+                                        <li><a href="pages/schengen.html">Schengen visa</a></li>
+                                        <li><a href="pages/visa-service.html">visas services</a></li>
+                                        <li><a href="pages/ticketing.html">Ticketing</a></li>
+                                        <li><a href="pages/travel-card.html">Travel insurance</a></li>
+                                        <li><a href="pages/vfs-appoinment.html">vfs appointment</a></li>
+                                        <li><a href="pages/attestation.html">Attestation</a></li>
+                                        <li><a href="pages/forex.html">Forex</a></li>
+                                        <li><a href="pages/travel-card.html">Travel card</a></li>
+                                    </ul>
+                                </li>
+    
                                 <li><a href="page-company-contact.html">Contact </a></li>
                             </ul>
                         </div>
