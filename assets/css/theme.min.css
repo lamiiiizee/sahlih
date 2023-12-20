@@ -1539,9 +1539,10 @@ h6 {
 .navbar-visible-ontoggle:not(.is-active).collapsing .main-nav > li {
   transform: translateX(-5px);
 }
+/* custom */
 .nav-item-children {
-  min-width: 232px;
-  padding: 1.0625em 0;
+  min-width: 300px;
+  padding: 1.0625em 10px;
   border-radius: 5px;
   position: absolute;
   top: 100%;
@@ -1555,6 +1556,23 @@ h6 {
   transform: translateY(10px);
   transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
   transition-property: transform, opacity, visibility;
+}
+.nav-item-children li{
+  margin-bottom: 20px;
+}
+.two-column-dropdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  list-style: none;
+}
+.column a {
+  color: #2e2e2e; /* Set the color you prefer */
+  text-decoration: none;
 }
 .nav-item-children:before {
   content: "";
