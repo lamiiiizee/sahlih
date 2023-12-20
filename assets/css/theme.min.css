@@ -1577,7 +1577,7 @@ h6 {
 }
 .nav-item-children > li > a {
   display: block;
-  padding: 0.75em 1.75em;
+  padding: 0.45em 1.75em;
   width: 100%;
   color: rgba(0, 0, 0, 0.55);
 }
