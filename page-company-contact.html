@@ -640,24 +640,27 @@
 
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-
     <script>
-
         document.getElementById('myForm').addEventListener('submit', function (event) {
             event.preventDefault();
-
+    
             // Initialize EmailJS with your user ID
             emailjs.init("YgHUotLK3GgpdNG4p");
-
+    
             // Send the form data to EmailJS
             emailjs.sendForm("service_5vm3v8q", "template_1igxxor", this)
                 .then(function (response) {
                     console.log("Email sent successfully", response);
+    
+                    // Display an alert on successful email sending
+                    alert("Email sent successfully");
+    
+                    // Refresh the page
+                    window.location.reload();
                 }, function (error) {
                     console.log("Failed to send email. Error:", error);
                 });
         });
-
     </script>
 
 </body>
