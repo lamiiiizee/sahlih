@@ -268,18 +268,18 @@
                                                         <div class="col col-lg-6 col-12 py-0 px-15"><span
                                                                 class="mb-0 lqd-form-control-wrap relative"><input
                                                                     class="px-2em text-14 font-normal bg-yellow-100 text-slate-700"
-                                                                    type="text" name="name" value size="40"
+                                                                    type="number" name="number" value size="40"
                                                                     aria-required="true" aria-invalid="false"
                                                                     placeholder="Phone"></span></div>
                                                         <div class="col col-lg-6 col-12 py-0 px-15"><span
                                                                 class="mb-0 lqd-form-control-wrap relative"><input
                                                                     class="px-2em text-14 font-normal bg-yellow-100 text-slate-700"
-                                                                    type="text" name="name" value size="40"
+                                                                    type="text" name="subject" value size="40"
                                                                     aria-required="true" aria-invalid="false"
                                                                     placeholder="Subject"></span></div>
                                                         <div class="col col-12 py-0 px-15"><span
                                                                 class="lqd-form-control-wrap"
-                                                                data-name="textarea"><textarea name="textarea" cols="10"
+                                                                data-name="textarea"><textarea name="message" cols="10"
                                                                     rows="4"
                                                                     class="lqd-cf-form-control px-2em text-14 font-normal bg-yellow-100 text-slate-700"
                                                                     aria-required="true" aria-invalid="false"
@@ -638,6 +638,26 @@
                 data-lity-close>&times;</button>
         </div>
     </div>
+
+    <script>
+
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Initialize EmailJS with your user ID
+            emailjs.init("YgHUotLK3GgpdNG4p");
+
+            // Send the form data to EmailJS
+            emailjs.sendForm("service_5vm3v8q", "template_c5lk4oq", this)
+                .then(function (response) {
+                    console.log("Email sent successfully", response);
+                }, function (error) {
+                    console.log("Failed to send email. Error:", error);
+                });
+        });
+
+    </script>
+
 </body>
 
 </html>
