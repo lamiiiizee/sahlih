@@ -229,7 +229,7 @@
                                     </div>
                                     <div class="col col-12 col-md-12">
                                         <h1 class="mb-3">Apply Now</h1>
-                                        <form class="career-aboard" action="https://script.google.com/macros/s/AKfycbz4YLrpm0P8TCQXdeII8OFCRTEUcvyMUep2UMdDB3RaEJqVVnhm5hNl87800AyH2NE/exec"  method="post" enctype="multipart/form-data">
+                                        <form class="career-aboard" id="whatsappform"  method="POST" >
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <label for="name">Your Name</label>
@@ -243,7 +243,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label for="phone">Phone</label>
-                                                    <input type="number" id="phone" name="phone"
+                                                    <input type="number" id="phone" name="number"
                                                         class="custom-input" required>
                                                 </div>
                                                 <div class="col-md-6">
@@ -259,19 +259,16 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label for="subject">Your Subject</label>
-                                                    <input type="text" id="subject" name="subject"
+                                                    <input required type="text" id="subject" name="subject"
                                                         class="custom-input">
                                                 </div>
 
-                                                <div class="col-md-6">
+                                                <div class="col-md-12">
                                                     <label for="message">Your Message</label>
                                                     <textarea id="message" name="message" class="custom-input"
                                                         required></textarea>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <label for="file" class="file-label">resume</label>
-                                                    <input type="file" name="file" id="file" class="file-input">
-                                                </div>
+                                                
                                                 <div class="col-md-12">
                                                     <div class="row">
                                                         <div class="col-md-6">
@@ -580,6 +577,12 @@
 
         }
     </script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+
+
+    <script src="../assets/js/whatsapp.js"></script>
 
 
 <!-- AKfycbx-OSmDzpcLa3WMzt5ohK7zz3I-C5rCoHWVyvBP_tnwOXTFqafj19hQR3kwV65HCbA -->
