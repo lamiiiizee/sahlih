@@ -3989,12 +3989,14 @@
                     console.log("Email sent successfully", response);
 
                     // Display an alert on successful email sending
-                    alert("Email sent successfully");
+                    alert("successfully submitted");
 
                     // Refresh the page
                     window.location.reload();
                 }, function (error) {
                     console.log("Failed to send email. Error:", error);
+                    alert("failed");
+
                 });
         });
     </script>
