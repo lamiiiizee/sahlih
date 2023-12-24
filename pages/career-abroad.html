@@ -226,69 +226,16 @@
                                                 horizons. Fill out the form below, and let us help you make your dream
                                                 job abroad a reality!</p>
                                         </div>
-                                    </div>
-                                    <div class="col col-12 col-md-12">
-                                        <h1 class="mb-3">Apply Now</h1>
-                                        <form class="career-aboard" id="whatsappform"  method="POST" >
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label for="name">Your Name</label>
-                                                    <input type="text" id="name" name="name"
-                                                        class="custom-input" required>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label for="country">Preferred Country</label>
-                                                    <input type="text" id="country" name="country" class="custom-input"
-                                                        required>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label for="phone">Phone</label>
-                                                    <input type="number" id="phone" name="number"
-                                                        class="custom-input" required>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label for="job">Industry/Job</label>
-                                                    <input type="text" id="job" name="job"
-                                                        class="custom-input" required>
-                                                </div>
+                                        <div class="custom-button"><a target="_blank" href="https://forms.gle/3iUQK6AUnNH4LRiB6"><button type="submit" class="btn-submit">Apply Now</button></a></div>
 
-                                                <div class="col-md-6">
-                                                    <label for="email">Your Email</label>
-                                                    <input type="email" id="email" name="email"
-                                                        class="custom-input" required>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label for="subject">Your Subject</label>
-                                                    <input required type="text" id="subject" name="subject"
-                                                        class="custom-input">
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <label for="message">Your Message</label>
-                                                    <textarea id="message" name="message" class="custom-input"
-                                                        required></textarea>
-                                                </div>
-                                                
-                                                <div class="col-md-12">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <button type="submit" class="btn-submit">Send</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
                                     </div>
-                                    <div class="ms-auto mx-5 whatsapp">
-                                        <a href="https://wa.me/917025884422"><button type="button"
-                                                class="btn btn-dark text-dark">
-                                                <img src="../img/whatsapp.png" alt="Image 2">ㅤcontact us
-                                            </button></a>
-                                    </div>
+                                    
+                                   
                                 </div>
                             </div>
                             <div class="lqd-modal-foot"></div>
                         </div>
+
 
                     </div>
                 </section>
@@ -579,10 +526,55 @@
     </script>
 
 <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script> -->
 
 
-    <script src="../assets/js/whatsapp.js"></script>
+<!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script>
+document.getElementById('myForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    // Initialize EmailJS with your user ID
+    emailjs.init("KBzwgCAJ2tOfDxlTK");  // Replace "YOUR_USER_ID" with your actual EmailJS user ID
+
+    // Create a FormData object to send the file
+    var formData = new FormData(this);
+
+    // Add the file link to the FormData object
+    formData.append('file_link', 'http://127.0.0.1:5500/pages/'); // Replace with the actual file link
+
+    // Send the form data (including the file link) to EmailJS
+    emailjs.sendForm("service_m2eh4ja", "template_rdq0ke2", formData)
+        .then(function (response) {
+            console.log("Email sent successfully", response);
+
+            // Display an alert on successful email sending
+            alert("Successfully submitted");
+
+            // Refresh the page
+            window.location.reload();
+        }, function (error) {
+            console.log("Failed to send email. Error:", error);
+            alert("Failed to submit");
+        });
+});
+
+</script> -->
+
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function (e) {
+      var fileInput = document.getElementById('file');
+      var fileTypeInput = document.getElementById('fileType');
+      var fileNameInput = document.getElementById('fileName');
+  
+      fileTypeInput.value = fileInput.files[0].type;
+      fileNameInput.value = fileInput.files[0].name;
+    });
+  </script>
+  
+
 
 
 <!-- AKfycbx-OSmDzpcLa3WMzt5ohK7zz3I-C5rCoHWVyvBP_tnwOXTFqafj19hQR3kwV65HCbA -->

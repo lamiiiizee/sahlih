@@ -1,49 +1,56 @@
-
-.drop-custom{
+.drop-custom {
     width: 100%;
     gap: 10px;
 }
 
-@media (max-width: 768px) { 
-.d-web{
-    display: none;
-}
-.d-mob{
-    display: block;
-}
-.module-inner{
-    padding: 15px !important;
-}
-.ld-fancy-heading h2{
-    font-size: 28px;
-
-}
-.highlight-content{
-    font-size: 20px !important;
-}
-.pb-sm-10{
-    padding-bottom: 10px;
-}
- }
-
- @media (min-width: 770px) { 
-
-    .d-mob{
+@media (max-width: 768px) {
+    .d-web {
         display: none;
     }
-    .bottom-social{
+
+    .d-mob {
+        display: block;
+    }
+
+    .module-inner {
+        padding: 15px !important;
+    }
+
+    .ld-fancy-heading h2 {
+        font-size: 28px;
+
+    }
+
+    .highlight-content {
+        font-size: 20px !important;
+    }
+
+    .pb-sm-10 {
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 770px) {
+
+    .d-mob {
+        display: none;
+    }
+
+    .bottom-social {
         display: none !important;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .navbar-collapse.collapse{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-collapse.collapse {
         display: none !important;
     }
+
     .lqd-mobile-sec-nav .collapse:not(.show) {
-    display: none !important;
+        display: none !important;
     }
-    button.navbar-toggle.nav-trigger.style-mobile.flex.relative.items-center.justify-end.border-none.p-0.bg-transparent.collapsed{
+
+    button.navbar-toggle.nav-trigger.style-mobile.flex.relative.items-center.justify-end.border-none.p-0.bg-transparent.collapsed {
         display: none !important;
     }
 }
@@ -59,33 +66,37 @@
     align-items: center;
     padding: 10px;
     z-index: 999;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  }
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
 
-  .bottom-social img {
+.bottom-social img {
     width: 30px;
     height: auto;
     transition: transform 0.3s ease-in-out;
-  }
+}
 
-  .bottom-social img:hover {
-    transform: scale(1.2); /* Add a scale effect on hover */
-  }
+.bottom-social img:hover {
+    transform: scale(1.2);
+    /* Add a scale effect on hover */
+}
 
-  .bottom-social img:not(:last-child) {
-    margin-right: 15px; /* Add some space between the images */
-  }
+.bottom-social img:not(:last-child) {
+    margin-right: 15px;
+    /* Add some space between the images */
+}
 
-  [data-mobile-nav-trigger-alignment="right"] .lqd-mobile-sec .navbar-toggle {
+[data-mobile-nav-trigger-alignment="right"] .lqd-mobile-sec .navbar-toggle {
     justify-content: flex-end;
     color: black;
 }
 
-.carousel-control.right,.carousel-control.left{
+.carousel-control.right,
+.carousel-control.left {
     background: none;
 }
 
-.custom-input{
+.custom-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -94,7 +105,8 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-textarea.custom-input{
+
+textarea.custom-input {
     resize: vertical;
 }
 
@@ -117,15 +129,52 @@ textarea.custom-input{
 }
 
 /* Bootstrap */
-.mt-5{
+.mt-5 {
     margin-top: 3rem;
 }
 
-.contact-banner-text{
+.contact-banner-text {
     color: #FFCD28;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     background-color: #0f3794;
     color: #fff;
+}
+
+.custom-button {
+    display: inline-block;
+    margin: 0px 10px 20px 10px;
+    /* Adjust the margin as needed */
+}
+
+.custom-button .btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #0f3794;
+    /* Set your preferred border color */
+    border-radius: 5px;
+    /* Adjust the border radius as needed */
+    color: #ffffff;
+    /* Set your preferred text color */
+    background-color: #0f3794;
+    /* Set your preferred background color */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.custom-button .btn-submit:hover {
+    background-color: #ffcd28;
+    /* Set your preferred hover background color */
+    color: #000000;
+    /* Set your preferred hover text color */
+    border-color: #ffcd28;
+    /* Set your preferred hover border color */
 }
