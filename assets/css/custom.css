@@ -178,3 +178,7 @@ textarea.custom-input {
     border-color: #ffcd28;
     /* Set your preferred hover border color */
 }
+
+body{
+    opacity: 0 !important;
+}
